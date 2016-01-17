@@ -6,9 +6,18 @@ import br.edu.ifpb.Aloc.Entidades.Passagem;
 
 public class PassagensDAO {
 	
-	ArrayList<Passagem> passagens = new ArrayList<Passagem>();
+	public void criaArray(){
+		
+		ArrayList<Passagem> passagens = new ArrayList<Passagem>();
+		
+		
+		
+		passagens.add();
+		
+	}
 	
-	passagens.add("1;2;25.00");
+	
+	
 	
 
 }
