@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"
+	%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,6 +13,7 @@
 	<h3>Mapa de Assentos IFVan</h3>
 
 	<table class='bordasimples' width="200px">
+	<%=if
 		<tr bgcolor="#93DB70">
 			<td width="100px">1</td>
 			<td width="100px">2</td>
@@ -41,15 +45,9 @@
 		</div>
 	</div>
 	<div class='div2'>
-		<p>
-			<a href="Login.html">Comprar uma passagem</a>
-		</p>
-		<p>
-			<a href="">Cancelar uma passagem</a>
-		</p>
-		<p>
-			<a href="">Calcular o total apurado</a>
-		</p>
+		<p><a href="Login.html">Comprar uma passagem</a></p>
+		<p><a href="">Cancelar uma	passagem</a> </p>
+		<p><a href="">Calcular o total apurado</a></p>
 	</div>
 </body>
 </html>
