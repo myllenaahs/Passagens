@@ -1,19 +1,9 @@
 @CHARSET "ISO-8859-1";
 
-body{
-    background-color: #650a0c;
-}
-
 h1{
-	font-family:Broadway;
+	font-family:Arial;
 	text-align:center;
-	color:white;
-}
-
-h2{
-	text-align:left;
-	color:white;
-	margin-left:100px;
+	color:black;
 }
 
 form{
@@ -37,6 +27,5 @@ input{
 #logout{	
  	position:relative;
  	 top: 200px;
-    float:right;
-    margin:50px;
+ 	 left:320px;
 }

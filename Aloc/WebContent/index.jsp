@@ -13,7 +13,7 @@
 	<h3>Mapa de Assentos IFVan</h3>
 
 	<table class='bordasimples' width="200px">
-	<%=if
+	<%=if%>
 		<tr bgcolor="#93DB70">
 			<td width="100px">1</td>
 			<td width="100px">2</td>
